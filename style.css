@@ -1,0 +1,151 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.navbar{
+    padding: .8rem;
+    border-radius: 0 0 0 0;
+
+    background-color: rgb(44, 42, 42);
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(99, 99, 99)!important;
+}
+
+.navbar-nav li{
+    padding-right:20px;
+}
+
+.nav-link{
+    font-size:1.1em !important;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.padding{
+    padding-bottom: 0.625rem;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.container1{
+    text-align:center;
+}
+
+.font-weight-lighter-center{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 7px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-indicators{
+    /* bottom: 48px; */
+    filter: invert(1);
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 5px;
+    filter: invert(1);
+}
+
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr{
+    border-top: 2px solid rgb(158, 12, 14);
+    width: 75%;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+
+
+.row{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.space{
+    margin:0;
+    padding:0;
+    height:20px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    color: white;
+} 
+
+.navbar-inverse .navbar-nav .active a, 
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    color: #FFF;
+    background-color: rgb(44, 42, 42);
+}
+
+.navbar-inverse .navbar-nav li a{
+    color: #D5D5D5; 
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+body{
+    background-color:white;
+}
+
+h6 {
+    text-align: center;
+}
+
+.fa-github{
+    color: rgb(170, 124, 124);
+}
+
+.fa-envelope{
+    color: rgb(170, 124, 124);
+}
+
+.fa-linkedin{
+    color: rgb(170, 124, 124);
+}
+
+.fa-github:hover{
+    color: rgb(158, 12, 14);
+}
+
+.fa-envelope:hover{
+    color: rgb(158, 12, 14);
+}
+
+.fa-linkedin:hover{
+    color: rgb(158, 12, 14);
+}
